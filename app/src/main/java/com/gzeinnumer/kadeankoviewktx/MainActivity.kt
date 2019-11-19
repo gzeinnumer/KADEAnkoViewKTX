@@ -9,6 +9,7 @@ import org.jetbrains.anko.sdk27.coroutines.onClick
 
 class MainActivity : AppCompatActivity(), AnkoLogger {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         MainActivityUI().setContentView(this)
